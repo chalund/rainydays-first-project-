@@ -1,35 +1,38 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 100vh;
+    min-height: 100vh;
     margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
 }
 
 header {
-    background-color: #528386;
+    background-color: #528386; 
     display: flex;
-    align-items: center;
-}
-
-.logo {
-    position: relative;
-    width: 20%;
 }
 
 header a {
     color: #0A3641;
+    display: flex;
+}
+
+
+.logo img {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 100px;
 }
 
 nav {
-    margin-left: 25px;
+    margin-left: 70px;
 }
 
-nav ul {
-    padding: 0px;
-}
 
 nav li ,
 footer li  {
-    display: inline-block;
+    display: inline-block;  
 }
 
 h1 {
@@ -41,6 +44,7 @@ footer {
     background-color: #000;
     color: #fff;
     padding: 10px ;
+    text-align: center;
 }
 
 footer a {
@@ -48,15 +52,24 @@ footer a {
 }
 
 /*Links */
-a {
+a ,
+li p {
     font-size: 1.5em;
     text-decoration: none;
-    margin: 15px;
+    margin: 20px;
+}
+
+li i {
+    font-size: 1.5em;
+
 }
 
 .active {
     text-decoration: underline;
 }
+
+
+
 
 /*Home page*/
 .front-page {
@@ -69,28 +82,30 @@ a {
     position: relative;
 }
 
+.shop
+
 .shop {
     background-color: #f5f5f5;  
-    text-align: center;
-    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
-
-
 
 .shop__content {
-    max-width: 1000px;
-    margin: 150px auto;
-    display: flex ;
+
 }
 
-.shop__content > * {
-    flex: 1;
-    text-align: center;
-}
 
 .cta-button {
     background-color: #ffe259;
     font-size: 1.4em;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.cta-small {
+    background-color: #ffe259;
+    font-size: 0.9em;
     padding: 10px 30px;
     border-radius: 30px;
 }
@@ -134,3 +149,48 @@ position: relative;
     width: 100%;
 }
 
+/* about page */
+
+.about__image {
+    width: 50%;
+    float: right;
+}
+
+
+
+    
+
+
+/* contact page */
+.contact {
+
+}
+.adress {
+
+}
+
+.phone {
+
+}
+
+.contact__images {
+    width: 50%;
+    float: right;
+}
+
+.form-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Product */
+.background-page{
+    background-image: url(../images/nina-luong-dy4QG5c5xWQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    min-height: 100vh;
+    position: relative;
+}
