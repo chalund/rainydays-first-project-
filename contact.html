@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="logo">
-             <a href="index.html"> <img src="logo/RainyDays_Logo.png" ></a>
+             <a href="index.html"> <img src="logo/RainyDays_Logo.png"></a>
         </div>
         <nav>
             <ul>
@@ -26,56 +26,66 @@
      <main>
         <section class="contact">
             <div>
-                <h1>Contact us</h1>
-            </div>
-            <div class="adress">
-                <p>Adress</p>
-                <p> Adventure road 123 </p>
-                <p> 0012 Oslo </p>
-                <p> Norway</p>
-            </div>
-            <div class="phone">
-                <p> Phone </p>
-                <p> +47 12345678</p>
-                <p> Mon-Fri 08-17</p>
-                <p> E-mail</p>
-                <p> rainydays@rainydays.com</p>
+                <div class="contact__headline"> 
+                    <h1>Contact us</h1>
+                    <p>Do you have any questions?</p>
+                </div>
+                <div class="contact-wrapper">
+                    <div><i class="fa-solid fa-phone"></i></div>
+                            <div class="phone">
+                                <p> Call us </p>
+                                <p> +47 12345678</p>
+                                <p> Mon-Fri 08-17</p>
+                            </div>
+                    <div> <i class="fa-solid fa-location-dot"></i> </div>
+                            <div class="adress">
+                                <p>Adress</p>
+                                <p> Adventure road 123 </p>
+                                <p> 0012 Oslo </p>
+                                <p> Norway</p>
+                            </div>
+                    <div> <i class="fa-regular fa-envelope"></i></div>
+                            <div class="email">
+                                <p> E-mail</p>
+                                <p> rainydays@rainydays.com</p>
+                            </div>
+                </div>
             </div>
             <div>
-                <img src="images/will-swann-IyVfWEsb51E-unsplash.jpg" alt="cloudy forrest" class="contact__images">
+                <img src="images/toomas-tartes-Yizrl9N_eDA-unsplash.jpg" alt="cloudy forrest" class="contact__images">
             </div>
         </section>
-        <section>
-            <div>
-                <h2>Message us</h2>
-                <p> Do you have any questions or inquiries? Fill out the form and we´ll be in touch as soon ass possible.</p>
-            </div>
-            <form>
-                <div class="form-wrapper">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name">
-                    <label for="email">E-mail</label>
-                    <input type="text" name="E-mail" id="E-mail">
-                    <label for="title">Title</label>
-                    <input type="text" name="Title" id="Title">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message"></textarea>
-            </form>
-        </section>
-        <section>
-            <input type="Submit" value="Send message">
-        </section>
-                 </div>
+        <section class="message__us">
+            <h2>Message us</h2>
+            <p> Do you have any questions or inquiries? Fill out the form and we'll be in touch as soon ass possible.</p>
+                <form>
+                    <div class="form-wrapper">
+                        <section>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name">
+                            <label for="email">E-mail</label>
+                            <input type="text" name="E-mail" id="E-mail">
+                            <label for="title">Title</label>
+                            <input type="text" name="Title" id="Title">
+                        </section>
+                        <section>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"></textarea>
+                        </section>
+                    </div> 
+                <input type="Submit" value="Send message" class="cta-button">
+                </form>
+        </section>        
      </main>
      <footer>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html" class="active" >Contact</a></li>
-            <li>Follow us</li>
-            <li><i class="fa-brands fa-facebook"></i></li>
-            <li><i class="fa-brands fa-snapchat"></i></li>
-            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><p>Follow us</p></li>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-instagram"></i>
         </ul>
      </footer>
 </body>
