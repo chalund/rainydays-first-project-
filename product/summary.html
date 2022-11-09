@@ -2,90 +2,123 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="Summary of the shopping basket on Rainydays">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Summary of the shopping basket on Rainydays">
     <link href="../css/style.css" rel="Stylesheet"> 
     <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script> 
     <title>Rainydays | Order Summary</title>
 </head>
 <body>
      <header>
-        <div class="logo">
-            <a href="../index.html"> <img src="../logo/RainyDays_Logo.png" alt="rainydays logo" ></a>
-        <nav>
-            <ul>
-                <li><a href="../women.html">Woman</a></li>
-                <li><a href="../men.html">Men</a></li>
-                <li><a href="../about.html">About</a></li>
-                <li><a href="../contact.html">Contact</a></li>
-                <li><i class="fa-solid fa-bag-shopping"></i></li>
-            </ul>
-        </nav>
+            <div class="logo">
+                <a href="../index.html"> <img src="../logo/RainyDays_Logo.png" alt="rainydays logo" ></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../women.html">Woman</a></li>
+                    <li><a href="../men.html">Men</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                    <li><i class="fa-solid fa-bag-shopping"></i></li>
+                </ul>
+            </nav>
      </header>
-     <main>
-        <section class="view-box">
-            <div class="box-button">
+     <main class="background">
+        <section class="box">
+            <section class="box-button">
+                <a href="overviewjacket.html"><i class="fa-regular fa-circle-left" ></i></a>
                 <div>
-                    <a href="overviewjacket.html"><i class="fa-regular fa-circle-left"></i></a>
-                </div>
-                <div>
-                    <h1> Order Summary</h1>
-                </div>
-            </div>
-                <section class="shopping-basket">
-                    <h2>Shopping basket</h2>
-                        <section class="shopping-basket__content">
-                            <div>
-                                <img src="../assets/RainyDays_Jacket1.png" alt="1st watch orange and gray" class="jacket">
-                            </div>
-                            <div>
-                                <h3>1st Watch</h3>
-                                <p>Explorair 2</p>
-                                <div class="color">
-                                    <p>Color</p>
-                                    <p>Gray/orange</p>
-                                </div>
-                                <div class="amount">
-                                    <p>Size</p>
-                                    <p>L</p>
-                                </div>
-                                <div class="quantity">
-                                    <p>Quantity</p>
-                                    <p>1</p>  
-                                </div>
-                            </div>
-                        </section>
-            </section>
-            <h3>Order Summary</h3>
-            <section class="order-summary">  
-                <div>
-                    <p>Your order</p>
-                    <p>2599 NOK</p>
-                </div>
-                <div>
-                    <p>Shopping</p>
-                    <p>FREE</p>
-                </div>
-                <div class="order-total">
-                    <p>Order total</p>
-                    <p>2599 NOK</p>
+                    <section class="summary-line">
+                        <p><i class="fa-solid fa-circle"></i></p>
+                        <p>______</p>
+                        <p><i class="fa-regular fa-circle"></i></p>
+                        <p>______</p>
+                        <p><i class="fa-regular fa-circle"></i></p>
+                    </section>
+                    <section class="summary-content">
+                        <p>Order summary</p>
+                        <p>Payment method</p>
+                        <p>Conformation</p>
+                    </section>
                 </div>
             </section>
-            <div class="pay-now">
-                <a href="../product/payment.html" class="cta-button">Buy Now</a>
-            </div>
+                <h1> Order Summary</h1>
+            <section class="shopping-basket">
+                <h2>Shopping basket</h2>
+                    <div class="shopping-content">
+                        <div>
+                            <img src="../assets/RainyDays_Jacket1.png" alt="1st watch orange and gray" class="jacket">
+                        </div>
+                        <div>
+                            <h3>1st Watch</h3>
+                            <p>Explorair 2</p>
+                            <h4>2599 NOK</h4>
+                            <div class="color">
+                                <h4>Color</h4>
+                                <p>Gray/orange</p>
+                            </div>
+                            <div class="dimensions">
+                                <h4>Size</h4>
+                                <p>L</p>
+                            </div>
+                            <div class="quantity">
+                                <h4>Quantity</h4>
+                                <p>1</p>
+                            </div>
+                        </div>
+                    </div>
+            </section>  
+            <section class="order-summary"> 
+                    <h3>Order Summary</h3> 
+                    <div>
+                        <p>Your order</p>
+                        <p>2599 NOK</p>
+                    </div>
+                    <div>
+                        <p>Shopping</p>
+                        <p>FREE</p>
+                    </div>
+                    <div class="order-total">
+                        <p>Order total</p>
+                        <p>2599 NOK</p>
+                    </div>
+            </section>
+                <div class="pay-now">
+                    <a href="../product/payment.html" class="cta-button" >Buy Now</a>
+                </div>
         </section>
      </main>
-     <footer>
+     <footer >
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="index.html"  class="active">Home</a></li>
+            <li><a href="about.html" >About</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li>Follow us</li>
+            <li><p>Follow us</p></li>
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-snapchat"></i>
             <i class="fa-brands fa-instagram"></i>
-        </ul>
+        </ul> 
+        <footer-menu >
+            <div class="footer-menu">
+                <div class="footer-icon">
+                    <a href="index.html"><i class="fa-solid fa-house"></i></a>
+                    <p>Home</p>
+                </div>
+                <div class="footer-icon">
+                    <a href="about.html"><i class="fa-regular fa-address-card"></i></a>
+                    <p>About</p>
+                </div>
+                <div class="footer-icon">
+                    <a href="contact.html"><i class="fa-regular fa-envelope"></i></a>
+                    <p>Contact</p>
+                </div>
+                <div class="footer-icon">
+                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                    <p>Shoppingbag</p>
+                </div>
+            </div>
+        </footer-menu>
      </footer>
 </body>
 </html>

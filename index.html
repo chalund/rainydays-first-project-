@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
     <link href="css/style.css" rel="Stylesheet"> 
     <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script> 
     <title>Rainydays | Home</title>
 </head>
 <body>
      <header>
-        <div class="logo">
-             <a href="index.html"> <img src="logo/RainyDays_Logo.png" ></a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="women.html">Woman</a></li>
-                <li><a href="men.html">Men</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><i class="fa-solid fa-bag-shopping"></i></li>
-            </ul>
-        </nav>
+       <section class="nav-container">
+             <a href="index.html" class="logo">
+                <img src="logo/RainyDays_Logo.png" alt="rainydays logo"> 
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="women.html">Woman</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><i class="fa-solid fa-bag-shopping"></i></li>
+                </ul>
+                </nav>
+        </section>
      </header>
      <main>
         <div class="home-page"></div >
@@ -34,26 +37,42 @@
         </section>
         <section class="favourite">
             <h2>Favourite</h2>
-            <a href="men.html"><img src="assets/RainyDays_Jacket1.png" class="favourite_products" alt="1st watch orange and gray"></a>
+            <a href="product/overviewjacket.html"><img src="assets/RainyDays_Jacket1.png" class="favourite_products" alt="1st watch orange and gray"></a>
             <a href="men.html"><img src="assets/RainyDays_Jacket3.png" class="favourite_products" alt="Scott red softshell jacket"></a>
             <a href="men.html"><img src="assets/RainyDays_Jacket2.png" class="favourite_products" alt="Scott black running Jacket"></a>
         </section>
         <div class="end-pic"></div>
      </main>
-     <footer>
+     <footer >
         <ul>
-            <div>
-                <li><a href="index.html"  class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html"  class="active">Home</a></li>
+            <li><a href="about.html" >About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><p>Follow us</p></li>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </ul> 
+        <footer-menu >
+            <div class="footer-menu">
+                <div class="footer-icon">
+                    <a href="index.html"><i class="fa-solid fa-house"></i></a>
+                    <p>Home</p>
+                </div>
+                <div class="footer-icon">
+                    <a href="about.html"><i class="fa-regular fa-address-card"></i></a>
+                    <p>About</p>
+                </div>
+                <div class="footer-icon">
+                    <a href="contact.html"><i class="fa-regular fa-envelope"></i></a>
+                    <p>Contact</p>
+                </div>
+                <div class="footer-icon">
+                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                    <p>Shoppingbag</p>
+                </div>
             </div>
-            <div>
-                <li><p>Follow us</p></li>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-snapchat"></i>
-                <i class="fa-brands fa-instagram"></i>
-            </div>
-        </ul>
+        </footer-menu>
      </footer>
 </body>
 </html>
