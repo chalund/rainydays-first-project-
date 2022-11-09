@@ -428,6 +428,10 @@ textarea {
     margin: 10px;
 }
 
+form {
+    padding: 15%;
+}
+
 .payment-details {
     display: flex;
     flex-direction: column
@@ -606,6 +610,10 @@ footer ul , footer li  {
 
 .summary-content {
     font-size: 1em; 
+}
+
+form {
+    padding: 0%;
 }
 
 
