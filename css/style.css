@@ -63,6 +63,7 @@ li p {
     font-size: 1.5em;
     text-decoration: none;
     margin: 15px;
+    color: #000;
 }
 
 ul i {
@@ -161,9 +162,12 @@ position: relative;
     padding: 10px; 
 }
 
+.product {
+    display: grid;
+}
+
 .product img {
     width: 100%;
-    height: 60%;
     border: 1px solid;
 }
 
@@ -241,6 +245,10 @@ position: relative;
     font-size: 0.9em;
     line-height: 4px;
 }
+
+.fa-solid.fa-location-dot {
+    padding: 20px 24px;
+}  
 
 .contact__images {
     width: 100%;
