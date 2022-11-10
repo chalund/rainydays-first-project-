@@ -14,7 +14,7 @@ header {
 
 header a ,
 header i {
-    color: #0A3641;
+    color: #000;
     display: flex;    
 }
 
@@ -79,6 +79,7 @@ ul i {
     font-size: 1.4em;
     padding: 10px 30px;
     border-radius: 30px;
+    color: #000;
 }
 
 .cta-small {
@@ -86,6 +87,7 @@ ul i {
     font-size: 0.9em;
     padding: 10px;
     border-radius: 30px;
+    color: #000;
 }
 
 .cta-commingsoon {
@@ -133,6 +135,7 @@ ul i {
 
 .favourite img {
     width: 100%;
+    height: auto;
 }
 
 .end-pic { 
@@ -196,7 +199,7 @@ position: relative;
 
 .about__image {
     width: 100%;
-    height: 350px;
+
 }
 
 
