@@ -18,10 +18,15 @@ https://developer.mozilla.org/en-US/
 CSS CheatSheet
 https://htmlcheatsheet.com/css/
 
+Compress jpeg
+https://compressjpeg.com/
+
 Used icons from Font Awesome
 https://fontawesome.com/
 
-Image checkmark (used on payment succsess)
+Images used on my website
+
+Image checkmark
 https://www.flaticon.com/free-icon/correct_4436481?term=checkmark&page=1&position=3&page=1&position=3&related_id=4436481&origin=search
 
 Nina Lung. Publishet 6/11/2019. Internet: https://unsplash.com/photos/dy4QG5c5xWQ
