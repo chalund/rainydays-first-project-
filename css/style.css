@@ -44,8 +44,7 @@ footer a {
 .footer-menu {
    display: grid;
    grid-template-columns: repeat(4,1fr);
-   margin: 20px 20px 0px 0px;
-   text-align: center;
+   margin: 10px;
 }
 
 footer ul {
