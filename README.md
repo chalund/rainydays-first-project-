@@ -10,7 +10,7 @@ I have made some small changes to the prototye
 - Added the form to desktop device on the contact-page and changed image.
 - On the shop (men/women) I choose to show only one jacket instead of two.
 
-References
+**References**
 
 Mdn web docs website
 https://developer.mozilla.org/en-US/

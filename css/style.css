@@ -104,8 +104,13 @@ ul i  {
 }
 
 .cta-commingsoon {
-    background-color: #d9d9d9 ;
+    background-color: #d9d9d9;
     border-radius: 30px;
+    border: 1px solid;
+    position: absolute;
+    margin: 120px 20px;
+    padding: 0px 40px;
+    font-weight: bold;
 }
 
 
@@ -172,10 +177,6 @@ position: relative;
     grid-template-columns: repeat(1,1fr);
     text-align: center;
     padding: 10px; 
-}
-
-.product {
-    display: grid;
 }
 
 .product img {
@@ -557,7 +558,12 @@ footer ul , footer li  {
 .product-list {
     grid-template-columns: repeat(3,1fr);
     row-gap: 35px;  
-}  
+} 
+
+.cta-commingsoon {
+    margin: 120px 0px;
+    padding: 0px 20px;
+}
 
 .about {
     display: flex;
@@ -649,7 +655,7 @@ form {
 }
 
 .view-jacket {
-    width: 100%;
+    width: 200px;
     height: 60%;
     margin-top: 50%;
 }
@@ -712,6 +718,11 @@ footer li {
 .box {
     padding: 100px;    
 }
+
+.cta-commingsoon {
+    margin: 120px 20px;
+    padding: 0px 40px;
+}
 }
 
 @media (min-width: 1000px) {
@@ -730,5 +741,6 @@ footer li {
 
 .product-list {
     grid-template-columns: repeat(4,1fr);
-}    
+} 
+
 }
