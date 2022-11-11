@@ -69,7 +69,11 @@ li p {
     
 }
 
-ul i {
+li i {
+    font-size: 1.2em;
+}
+
+ul i  {
     font-size: 1.5em;
     padding: 5px;
 }
@@ -625,7 +629,7 @@ form {
 
 @media (min-width: 800px) {
 nav li {
-    padding: 0px 20px;
+    padding: 0px 15px;
 }
 
 .home-page {
