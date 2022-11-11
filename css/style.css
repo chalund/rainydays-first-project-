@@ -22,6 +22,10 @@ nav {
     display: none;
 }
 
+nav i {
+    font-size: 1.2em;
+}
+
 .logo img {
     width: 100px;
 }
@@ -38,13 +42,18 @@ footer {
 }
 
 footer a {
-    color: #F5F5F5 
+    color: #F5F5F5 ;
+   
 }
 
 .footer-menu {
    display: grid;
    grid-template-columns: repeat(4,1fr);
-   margin: 10px;
+   margin: 20px 20px 0px;
+}
+
+.footer-menu p {
+    font-size: 0.6em;
 }
 
 footer ul {
@@ -65,12 +74,7 @@ a ,
 li p {
     font-size: 1.5em;
     text-decoration: none;
-    margin: 15px;
-    
-}
-
-li i {
-    font-size: 1.2em;
+    margin: 15px;   
 }
 
 ul i  {
@@ -82,20 +86,21 @@ ul i  {
     text-decoration: underline;
 }
 
-.cta-button {
+.cta {
     background-color: #ffe259;
+    color: #000;
+    border-radius: 30px;
     font-size: 1.4em;
     padding: 10px 30px;
-    border-radius: 30px;
-    color: #000;
 }
 
 .cta-small {
-    background-color: #ffe259;
-    font-size: 0.9em;
+    font-size: 1em;
     padding: 10px;
-    border-radius: 30px;
-    color: #000;
+}
+
+.cta-button { 
+    padding: 10px 80px;
 }
 
 .cta-commingsoon {
@@ -312,36 +317,47 @@ textarea {
     color: #000;
 }
 
+.summary-line i {
+    font-size: 2em;
+  }
+
 .view-jacket {
-    width: 100%;
-    height: 60%;
-    margin-top: 50%;
+    width: 70%;
+    height: 80%;
+    margin-left: 10%;
+   
 }
 
 .overviewjacket {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.overviewjacket > * {
-    flex: 1;
-}
 
 .jacket-content {
-    margin-left: 50px;
-  }
+    margin: 0% 10%;
+}
+
+.gray {
+    color:#B9BECC ;
+}
+
+.blue {
+    color: #341CC6;
+}
+
+
 
 .size {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-  }
+}
 
 .size > * {
     margin: 5px;
     border: 1px solid;
     padding: 10px;
-    background-color: #fff;
+    background-color: #efefef;
 }
 
 .pay-now {
@@ -501,7 +517,9 @@ footer ul , footer li  {
     max-width: 1000px;
     justify-content: center;  
     padding: 30px; 
-}  
+} 
+
+
 }
 
 @media (min-width: 600px) { 
@@ -625,6 +643,30 @@ form {
     min-height: 40vh;
     position: relative;
 }
+.overviewjacket {
+    display: flex;
+    flex-direction: row;
+}
+
+.view-jacket {
+    width: 100%;
+    height: 60%;
+    margin-top: 50%;
+}
+.jacket-content {
+    margin-left: 50px;
+  }
+
+.overviewjacket > * {
+    flex: 1;
+}
+
+.size {
+    justify-content: space-around;
+}
+
+.size > * {
+    background-color: #FFF;
 } 
 
 @media (min-width: 800px) {
@@ -658,7 +700,6 @@ footer li {
  }
 
 .about__image {
-
     width: 80%;
     height: 80%;
     margin: 20px;
@@ -676,7 +717,7 @@ footer li {
 @media (min-width: 1000px) {
 header a ,
 i {
-    padding: 0px 20px;
+    padding: 0px 15px;
 }
 
 footer li {

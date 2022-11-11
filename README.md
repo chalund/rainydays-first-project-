@@ -18,8 +18,8 @@ https://developer.mozilla.org/en-US/
 CSS CheatSheet
 https://htmlcheatsheet.com/css/
 
-Compress jpeg
-https://compressjpeg.com/
+Compress images
+https://www.img2go.com/compress-image
 
 Used icons from Font Awesome
 https://fontawesome.com/
