@@ -10,6 +10,10 @@ I have made some small changes to the prototye
 - Added the form to desktop device on the contact-page and changed image.
 - On the shop (men/women) I choose to show only one jacket instead of two.
 
+Link to website (Netlify)
+
+https://cute-kringle-2228a8.netlify.app/
+
 **References**
 
 Mdn web docs website
