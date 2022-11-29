@@ -756,11 +756,11 @@ nav a {
 }
 
 .welcome {
-    min-height: 100vh;
+    min-height: 60vh;
 }
 
 .end-section {
-    min-height: 100vh;
+    min-height: 60vh;
 }
     
 footer li {
@@ -813,6 +813,13 @@ footer li {
 header a ,
 i {
     padding: 0px 15px;
+}
+.welcome {
+    min-height: 80vh;
+}
+
+.end-section {
+    min-height: 80vh;
 }
 
 footer li {
