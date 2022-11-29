@@ -754,6 +754,14 @@ nav li {
 nav a {
     margin: 15px 15px;
 }
+
+.welcome {
+    min-height: 100vh;
+}
+
+.end-section {
+    min-height: 100vh;
+}
     
 footer li {
     padding: 0px 30px;
