@@ -12,7 +12,7 @@ I have made some small changes to the prototye
 
 Link to website (Netlify)
 
-https://cute-kringle-2228a8.netlify.app/
+https://hilarious-madeleine-c4e891.netlify.app
 
 **References**
 
