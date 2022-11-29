@@ -537,12 +537,15 @@ textarea {
         display: none;
 }
 
+.welcome {
+    min-height: 50vh;
+}
+
 footer ul , footer li  {
     display: inline-block; 
     font-size: 0.8em;
     padding: 0px;
 }
-
 
 .product-list {
     grid-template-columns: repeat(2,1fr);
@@ -556,8 +559,7 @@ footer ul , footer li  {
     padding: 0% 6%;
 }
 
-.card-details {Charlotte
-    
+.card-details {
     display: flex;
     flex-direction: row;
 }
@@ -596,7 +598,7 @@ footer ul , footer li  {
 }
 
 .welcome {
-    min-height: 50vh;  
+    min-height: 65vh;  
 } 
 
 .end-section {
@@ -756,7 +758,7 @@ nav a {
 }
 
 .welcome {
-    min-height: 60vh;
+    min-height: 80vh;
 }
 
 .end-section {
@@ -815,7 +817,7 @@ i {
     padding: 0px 15px;
 }
 .welcome {
-    min-height: 80vh;
+    min-height: 100vh;
 }
 
 .end-section {
