@@ -9,7 +9,7 @@ body {
 header {
     background-color: #528386; 
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 header a {
@@ -17,9 +17,36 @@ header a {
     display: flex;    
 }
 
-nav li{
-    display: none;
+nav {
+    display: none; 
+    position: fixed;
+    right: 0px;
+    z-index: 1000;
+    background: #528386;
+    margin-left: 25px;
+    top: 55px;
     
+}
+
+nav ul {
+    padding: 0px
+}
+
+nav li {
+    display: block;
+    padding: 0px 20px;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+header label {
+    margin-top: 35px;
 }
 
 .logo img {
@@ -56,9 +83,6 @@ footer ul {
     display: none;
 }
 
-.footer-menu i {
-    font-size: 1.5em;
-}
 
 
 /*Links */
@@ -70,7 +94,7 @@ a ,
 li p {
     font-size: 1.5em;
     text-decoration: none;
-    margin: 15px 10px;   
+    margin: 15px 5px;   
 }
 
 ul i  {
@@ -549,6 +573,10 @@ header {
     justify-content: left;
 }
 
+header label {
+    display: none;
+}
+
 nav {
     display: contents;
 }
@@ -723,6 +751,10 @@ nav li {
     padding: 0px 15px;
 }
 
+nav a {
+    margin: 15px 15px;
+}
+    
 footer li {
     padding: 0px 30px;
     text-align: center;
