@@ -12,18 +12,14 @@ header {
     justify-content: center;
 }
 
-header a ,
-header i {
+header a {
     color: #000;
     display: flex;    
 }
 
-nav {
+nav li{
     display: none;
-}
-
-nav i {
-    font-size: 1.2em;
+    
 }
 
 .logo img {
@@ -115,13 +111,18 @@ ul i  {
 
 
 /*Home page*/
-.home-page {
+.welcome {
     background-image: url(../images/nina-luong-dy4QG5c5xWQ-unsplash-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
-    background-position-y: bottom;
+    background-position-y: 65%;
     min-height: 30vh;
+}
+
+.homepic {
+    min-height: 70vh;
+    background-size: 100%;
 }
 
 .shop {
@@ -156,13 +157,13 @@ ul i  {
     height: 100%;
 }
 
-.end-pic { 
-background-image: url(../images/jeremy-bishop-dvACrXUExLs-unsplash-min.jpg);
+.end-section { 
+background: url(../images/jeremy-bishop-dvACrXUExLs-unsplash-min.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position-x: center;
-background-position-y: 0px;
-min-height: 40vh;
+background-position-y: 65%;
+min-height: 30vh;
 position: relative;
 }
 
@@ -518,13 +519,6 @@ footer ul , footer li  {
     padding: 0px;
 }
 
-.home-page {
-    min-height: 40vh;  
-}
-
-.end-pic {
-    min-height: 40vh;
-} 
 
 .product-list {
     grid-template-columns: repeat(2,1fr);
@@ -573,9 +567,13 @@ footer ul , footer li  {
     font-size: 1em;
 }
 
-.home-page {
+.welcome {
     min-height: 50vh;  
-}  
+} 
+
+.end-section {
+    min-height: 50vh;
+}
     
 .shop__content {
     padding: 10px 100px;
@@ -725,16 +723,6 @@ nav li {
     padding: 0px 15px;
 }
 
-.home-page {
-    min-height: 70vh;
-}
-
-.end-pic {
-background-position-x: right;
-background-position-y: bottom;
-min-height: 90vh;
-}
-
 footer li {
     padding: 0px 30px;
     text-align: center;
@@ -790,11 +778,7 @@ i {
 footer li {
     padding: 0px 30px;
 }
-    
-.home-page {
-    min-height: 100vh;
-}   
-
+      
 .product-list {
     grid-template-columns: repeat(4,1fr);
 } 
