@@ -53,6 +53,14 @@ header label {
     width: 100px;
 }
 
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: ;
+}
+
 h1 {
     font-size: 2em;
     text-align: center;
