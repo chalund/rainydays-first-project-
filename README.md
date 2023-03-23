@@ -12,7 +12,7 @@ I have made some small changes to the prototye
 
 Link to website (Netlify)
 
-https://animated-genie-32ebba.netlify.app
+https://reliable-zabaione-643465.netlify.app/ (hotjar)
 
 **References**
 
